@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    color: #000F08;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+ }
+
+ body * {
+     margin: 0;
+     border: 0;
+     padding: 0;
+ }
+
+ .oscuro {
+
+    background-color: #000f08;
+    color: #ffffff;
+ }
+
+ .oscuro a {
+
+    color: #ffffff;
+    text-decoration: none;
+ }
+ nav {
+
+    position: fixed;
+    text-align: left;
+    padding: 1.25rem 4rem;
+    width: 100vw;
+}
+
+nav ul {
+
+    list-style-type: none;
+}
+
+nav ul li {
+
+    display: inline-block;
+    margin: 0 1rem; 
+    letter-spacing: 0.25px;
+    vertical-align: middle;
+}
+
+footer i {
+
+    margin: 0 0.25em 0.5em 0.25em;
+}
+
+footer{
+    margin-top: 50px; 
+    padding: 50px;
+}
+
+.simposio-text, .gregorio-text {
+
+    padding-top: 100px;
+    margin: 0px 400px;
+    text-align: left;
+    
+}
+
+h3 {
+    padding-bottom: 50px;
+   
+}
+
+p {
+    padding: 25px 0px;
+  
+}

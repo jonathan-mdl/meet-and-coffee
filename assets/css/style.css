@@ -1,0 +1,141 @@
+body {
+    text-align: center;
+    color: #000F08;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif; 
+ }
+
+ body * {
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+ }
+
+ .oscuro {
+
+    background-color: #000f08;
+    color: #ffffff;
+ }
+
+ .oscuro a {
+
+    color: #ffffff;
+    text-decoration: none;
+ }
+
+ .hero-section {
+
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-size:cover;
+    text-align: right;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    font-weight: 800;
+    padding: 100px 50px;
+ }
+
+.sweet-brown {
+
+    background-color: #A4452C;
+    color: #ffffff;
+    text-align: left;
+    padding: 50px;
+
+}
+
+
+section, footer {
+
+    margin-top: 50px; 
+}
+
+footer{
+
+    padding: 50px;
+}
+
+.charla-texto, .evento {
+
+    display: inline-block;
+}
+
+.centrado {
+
+    width: 75%;
+    margin: 0 auto;
+}
+
+.charla-texto {
+
+    width: 70%;
+    vertical-align: middle;
+}
+
+.charla-speaker {
+
+    width: 25%;
+    vertical-align: middle;
+    margin-left: 5%;
+    
+}
+
+nav {
+
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+}
+
+nav ul {
+
+    list-style-type: none;
+}
+
+nav ul li {
+
+    display: inline-block;
+    margin: 0 1rem; 
+    letter-spacing: 0.25px;
+    vertical-align: middle;
+}
+
+footer i {
+
+    margin: 0 0.25em 0.5em 0.25em;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+.subtitulo {
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 2em;
+
+}
+
+h4 {
+    font-size: 1.75em;
+
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+.sweet-brown h3, .sweet-brown h5 {
+    margin-bottom: 0.5em; /*Aquí se puede ver el ejemplo claro de cómo los em estan condicionados por el elemento padre */
+}
